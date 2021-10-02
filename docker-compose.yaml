@@ -6,7 +6,8 @@ services:
       - "25564:25564"
       - "25565:25565"
       - "25566:25566"
-    command: xvfb-run --auto-servernum --server-num=1 wine /steamapps/common/Stormworks\ Dedicated\ Server/server.exe
+#      - xvfb-run --auto-servernum --server-num=1
+    command: wine cmd < /start_stormworks.bat
     volumes:
       - ${PWD}/server_config.xml:/home/wine/.wine32/drive_c/users/root/Application Data/Stormworks/server_config.xml
 volumes:
