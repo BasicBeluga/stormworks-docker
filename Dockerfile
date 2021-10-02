@@ -11,5 +11,5 @@ RUN ls /home/wine/.wine32
 RUN xvfb-run wine steamcmd.exe +login anonymous +quit ; exit 0
 RUN xvfb-run wine steamcmd.exe +login anonymous +app_update 1247090 +quit ; exit 0
 ENV DISPLAY=10.144.167.140:0.0
-RUN ls /
+COPY start_stormworks.bat .
 # RUN wine steamcmd.exe
