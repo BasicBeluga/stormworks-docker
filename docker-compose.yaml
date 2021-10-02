@@ -1,0 +1,17 @@
+version: "3.9"  # optional since v1.27.0
+services:
+  stormworks:
+    build: .
+    ports:
+      - "25564:25564"
+      - "25565:25565"
+      - "25566:25566"
+    entrypoint: ["/bin/sh","-c"]
+    command:
+      - | 
+          whoami
+          wine explorer
+    volumes:
+       - ${PWD}/stormworks_config:/home/wine/.wine32/drive_c/users/root/Application Data/Stormworks
+volumes:
+  stormworks_config:
