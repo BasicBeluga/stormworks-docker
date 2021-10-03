@@ -6,7 +6,7 @@ services:
       - "25564:25564"
       - "25565:25565"
       - "25566:25566"
-    command: ./start_wine.sh
+    command: /start_wine.sh
     volumes:
       - ${PWD}/server_config.xml:/home/wine/.wine32/drive_c/users/root/Application Data/Stormworks/server_config.xml
 volumes:
