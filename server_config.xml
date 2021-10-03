@@ -28,7 +28,6 @@
         <path value="rom/data/missions/default_mission_zones_main"/>
         <path value="rom/data/missions/default_mission_zones_sawyer"/>
         <path value="rom/data/missions/default_mission_zones_building"/>
-        <path value="rom/data/missions/default_tutorial"/>
         <path value="rom/data/missions/default_mission_transport_locations"/>
         <path value="rom/data/missions/default_ai"/>
         <path value="rom/data/missions/default_ai_aircraft"/>
