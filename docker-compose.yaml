@@ -9,6 +9,5 @@ services:
     command: /start_wine.sh
     volumes:
       - ${PWD}/server_config.xml:/home/wine/.wine32/drive_c/users/root/Application Data/Stormworks/server_config.xml
-    network_mode: "host"
 volumes:
   stormworks_config:
