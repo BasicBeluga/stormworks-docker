@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<server_data port="25564" name="Dockerized Stormworks-Server" seed="24225" save_name="autosave_server" max_players="32"
+<server_data port="25564" name="Herringland" seed="24225" save_name="autosave_server" max_players="32"
              password="foam" day_night_length="60" sunrise="0.25" sunset="0.791" infinite_money="true"
              unlock_all_islands="true" settings_menu="true" base_island="data/tiles/island12.xml"
-             settings_menu_lock="false" infinite_batteries="false" infinite_fuel="false" engine_overheating="true"
-             no_clip="false" map_teleport="true" vehicle_spawn="false" photo_mode="true" respawning="true"
-             cleanup_vehicle="false" clear_fow="false" third_person="true" third_person_vehicle="true"
-             vehicle_damage="false" player_damage="false" npc_damage="false" sharks="false" megalodon="false"
+             settings_menu_lock="true" infinite_batteries="false" infinite_fuel="false" engine_overheating="true"
+             no_clip="false" map_teleport="true" vehicle_spawn="true" photo_mode="true" respawning="true"
+             cleanup_vehicle="true" clear_fow="false" third_person="true" third_person_vehicle="true"
+             vehicle_damage="true" player_damage="true" npc_damage="false" sharks="false" megalodon="false"
              teleport_vehicle="true" fast_travel="true" auto_refuel="false" starting_currency="20000"
-             despawn_on_leave="false" map_show_players="false" map_show_vehicles="false" show_3d_waypoints="false"
-             show_name_plates="false" override_weather="false" override_time="false" override_wind="false"
+             despawn_on_leave="false" map_show_players="true" map_show_vehicles="true" show_3d_waypoints="true"
+             show_name_plates="true" override_weather="true" override_time="true" override_wind="true"
              physics_detail="180" unlock_components="true">
     <admins>
-        <id value="76561197960434622"/>
+        <id value="76561197971099477"/>
     </admins>
     <authorized/>
     <blacklist/>
